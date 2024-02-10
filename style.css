@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.navbar {
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f9fafb, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f9fafb, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar li a:hover {
+    color: #fff;
+}
+
+#reach-btn {
+    color: #fff;
+    background: linear-gradient(to bottom right, #007bff, #1e90ff);
+}
+
+#reach-btn:hover {
+    background: linear-gradient(to bottom right, #1e90ff, #007bff);
+    /* Change gradient on hover */
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.hero-side-text {
+    border-left: 2px solid grey;
+}
+
+.text-with-shadow {
+    margin-left: 90px;
+    text-shadow: 2px 2px 4px rgba(145, 142, 142, 0.5);
+    /* Horizontal offset, Vertical offset, Blur radius, Shadow color */
+}
